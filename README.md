@@ -9,19 +9,6 @@ This project analyzes and visualizes the correlation between multiple cryptocurr
 - Generate a correlation heatmap for selected tokens
 - Save and load processed data for fast analysis
 
-## Project Structure
-
-```
-token_heatmap/
-├── Database/                # Saved data files (e.g., joblib)
-├── Notebooks/               # Jupyter notebooks for data processing and analysis
-│   ├── 01_data.ipynb        # Data fetching and preparation
-│   └── token_correlation.ipynb # Correlation and visualization
-├── token_heatmap/           # Source code and .env file
-│   └── .env                 # API key for CoinGecko Pro
-├── requirements.txt         # Python dependencies
-```
-
 ## Setup
 
 1. **Clone the repository**
@@ -77,6 +64,5 @@ plt.show()
 
 MIT License
 
----
-
-**Note:** Keep your `.env` file private and do not commit it to version control.
+--- 
+ **Feel free to fork :)
